@@ -8,4 +8,4 @@ c = Y[1:3, 1:4]
 d = Y[:, ::2]
 e = Y[1:, [0, 2, 3, 4]]
 f = np.where(Y>12, Y, 0)
-print(a, b, c, d, e, f)
+print(a, b, c, d, e, f) 
